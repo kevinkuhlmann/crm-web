@@ -1,9 +1,24 @@
-3<h1>Create new Contacts</h1>
+<h1>Create New Contacts</h1>
 
-<form action = "/contacts" method = "post">
-  <input type = "text" name = "first_name">
-  <input type = "text" name = "last_name">
-  <input type = "text" name = "email">
-  <input type = "text" name = "notes">
-  <input type = "submit" name = "Submit">
-  </form>
+<form action = "new contacts" method="post">
+  <div class="field">
+    <label for="first-name">First Name</label>
+    <input type = "text" name = "First Name" id="first-name" placeholder="First Name">
+  </div>
+
+  <div class="field">
+    <label for="last-name">Last Name</label>
+    <input type = "text" name = "Last Name" id="last-name" placeholder="Last Name">
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input type = "email" name = "Email" id="email" placeholder="example@gmail.com">
+  </div>
+
+  <div class="field">
+    <label for="notes">Notes</label>
+    <input type = "text" name = "Notes" id="notes" placeholder="Awesome persons">
+  </div>
+  <input type="Submit">
+</form>

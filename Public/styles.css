@@ -1,18 +1,30 @@
-#second {
-  font-size: 48px;
-  color: orange;
+* {
+  margin: 0cm;
 }
 
-p {
-  color: green;
+body {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+
+  /*margin: 0;*/
 }
 
-p {
-  color: red;
+p {font-size: 24px;
+  color: black;
 }
 
 
 .highlight {
-  background-color: red;
+  background-color: orange;
 }
+
+h1 {
+    font-size: 70px;
+    color: red;
+    background-color: black;
+    font-style: bold;
+  }
+
+
+
 
