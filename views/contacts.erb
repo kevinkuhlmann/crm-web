@@ -1,11 +1,11 @@
-<h1>All Contacts</h1>
-
-<ul>
-  <% $rolodex.contacts.each do |contact| %>
-<li><%= contact.id %> <%= contact.first_name %> <%= contact.last_name %> <a href="/contacts/<%= contact.id %>/edit">Edit a Contact</a>  <a href="/contacts/<%= contact.id %>">View Contact</a>
-<% end %>
-</ul>
-
+<h1>All Contacts<h1>
+  <% @contacts.each do |contact| %>
+  <a href="/contacts/<%= contact.id %>">
+    <li>
+      <%= contact.first_name %> <%= contact.last_name %>  <a href="/contacts/edit">Edit Contact</a> <a href="/contacts/:id">Delete Contact</a>
+    </li>
+  </a>
+ <% end %>
 
 
 
